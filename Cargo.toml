@@ -1,0 +1,15 @@
+[package]
+name = "specs-test"
+version = "0.1.0"
+authors = ["Michu"]
+build = "build.rs"
+
+[dependencies]
+specs = {git = "https://github.com/slide-rs/specs.git"}
+vulkano = {git = "https://github.com/tomaka/vulkano.git"}
+vulkano-win = {git = "https://github.com/tomaka/vulkano.git"}
+winit = "0.6.4"
+
+[build-dependencies]
+vk-sys = {git = "https://github.com/tomaka/vulkano.git"}
+vulkano-shaders = {git = "https://github.com/tomaka/vulkano.git"}
